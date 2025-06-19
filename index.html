@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokédex Web</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="pokemon-app">
+    <h1 class="pokemon-app__title">Pokédex Web</h1>
+    <div class="pokemon-app__search">
+      <input type="text" id="pokemonInput" placeholder="Busca un Pokémon: Ej. pikachu" class="pokemon-app__input" />
+      <button onclick="fetchPokemon()" class="pokemon-app__button">Buscar</button>
+    </div>
+    <div id="pokemonContainer" class="pokemon-app__container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
