@@ -63,3 +63,4 @@ async function fetchPokemon() {
     container.innerHTML = `<p>No se encontró el Pokémon. Intenta con otro nombre.</p>`;
   }
 }
+console.log("Hola mundo");
